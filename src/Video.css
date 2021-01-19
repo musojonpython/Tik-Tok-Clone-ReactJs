@@ -1,0 +1,17 @@
+.video {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+  width: 80%;
+  scroll-snap-align: start;
+  cursor: pointer;
+}
+
+.video__player {
+  /* background-color: red; */
+  border-radius: 20px;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
